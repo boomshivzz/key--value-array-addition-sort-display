@@ -12,7 +12,7 @@ $type_res=array_add_by_key($c,$d);
 //we compare the arrays and add only if the keys are same
 // this is acheived in mouth watering fashion
 // here we compare both array keys and if the same key is found we add the count or else we just add as a new element 
-//finally only one array is returned all its elements plus like elements added and unique elements integrated
+//finally only one array is returned all its elements plus like elements added and unique elements appended 
 
 function array_add_by_key( $array1, $array2 ) {
     foreach ( $array2 as $k => $a ) {
